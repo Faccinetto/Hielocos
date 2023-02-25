@@ -101,6 +101,9 @@ const configuracion={
             debug: false
         }
     },
+    scale:{
+        mode:Phaser.Scale.FIT,/*Celular*/
+    },
     scene: [Hielocos,GameOver]
 };
 const juego=new Phaser.Game(configuracion);
